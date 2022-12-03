@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  #language
+    p(style="margin: 0; font-size:20px") Lütfen kullandığınız dili seçin
+    p(style="margin: 10px; font-size:18px") Please select language
+    .btnContainer
+        button#en ENGLISH
+        button#tr TÜRKÇE
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer")
+  script(src="/javascripts/language.js")
+  script(src="/javascripts/global.js")

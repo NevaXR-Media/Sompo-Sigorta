@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    link(href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/kvkk.css')
+    link(rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    //- meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+  body
+    #header
+      img.logo(src="/images/sompo-sigorta.svg")
+    #body
+      block content
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer")
+    script(src="/javascripts/global.js")

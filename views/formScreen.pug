@@ -1,0 +1,31 @@
+extends layout
+
+block content
+    #form
+        span.memoryDes #{locale.memoryDesc}
+        .formField
+            label #{locale.name}
+            input(value="" required='true' name="name" placeholder=locale.name)
+        .formField
+            label #{locale.surname}
+            input(value="" required='true' name="surname" placeholder=locale.surname)
+        .formField
+            label #{locale.email}
+            input(value="" name="email" placeholder=locale.email)
+        //- .formField(style="text-align: center")
+        //-     if (lang === 'en')
+        //-         label#kvkk You can access detailed information about your personal data processed by Togg within the scope of the NFT creation activities 
+        //-         a#kvkk_open from here.
+        //-     else
+        //-         label#kvkk Togg tarafından NFT çalışmaları kapsamında işlenen kişisel verilerinize ilişkin detaylı bilgilere 
+        //-         a#kvkk_open buradan ulaşabilirsiniz.
+        button#next.btn(text=locale.creating) #{locale.next}
+        #kvkkModal.modal
+            .modal-content
+                span.close &times;
+                if (lang === 'en')
+                    include ./kvkk_en.pug
+                else
+                    include ./kvkk_tr.pug
+    script(defer src='/javascripts/main.js')
+    script(defer src='/javascripts/kvkk.js')

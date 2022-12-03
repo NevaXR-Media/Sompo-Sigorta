@@ -1,0 +1,14 @@
+extends layout
+
+mixin exploreItem(panelItem, index)
+    .exploreItem
+        span.title #{panelItem.title}
+        span.description #{panelItem.desc}
+
+block content
+    #explore
+        span.memoryDes(style="margin-bottom: 75px") #{locale.memoryDesc}
+        span.title #{locale.howToUse}
+        span.description #{locale.howToUseDesc}
+        button#explore_btn #{locale.exploreNow}
+    script(defer src='/javascripts/explore.js')

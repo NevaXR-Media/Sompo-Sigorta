@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    #createNFTScreen
+        .title #{locale.letsStart}
+        .description #{locale.createNFTDesc}
+        .formField
+            label #{locale.walletAddress}
+            input#walletAddress(value="" required='true' name="walletAddress" placeholder=locale.enterWalletAddress)
+        button#mintNFT.btn(style="margin-top: 70px") #{locale.mintNFT}
+        #nftModal.modal
+            .modal-content(style="height:min-content; display:flex; align-items: center")
+                span(style="color: #000000") #{locale.nftInfoText}
+                span.close &times;
+    input#userId(value=_id style="display: none")
+    script(defer src='/javascripts/createNFT.js')
