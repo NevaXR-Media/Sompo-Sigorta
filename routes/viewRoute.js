@@ -16,6 +16,11 @@ router.get(
   viewController.explore
 );
 router.get(
+  "/howToCreate/:locale?",
+  LocaleController.locale,
+  viewController.howToCreate
+);
+router.get(
   "/form/:locale?",
   LocaleController.locale,
   viewController.formScreen

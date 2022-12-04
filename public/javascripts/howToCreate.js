@@ -3,7 +3,7 @@ const _init = () => {
 
   explore_btn.addEventListener("click", () => {
     let locale = sessionStorage.getItem("locale");
-    window.location.href = `/howToCreate/${locale}`;
+    window.location.href = `/form/${locale}`;
   });
 };
 

@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    #howToCreate
+        span.memoryDes(style="margin-bottom: 30px") #{locale.memoryDesc}
+        span.title #{locale.howToCreate}
+        span.description #{locale.howToCreateDesc}
+        #btnContainer
+           a.btn_link#createNow_btn(style="text-align:center;text-decoration:auto" href="https://kurtuluspartners.com/blockchain-sss/metamask-nedir-nasil-kurulur/" target="_blank") #{locale.createNow}
+           button#explore_btn #{locale.exploreNow}
+    script(defer src='/javascripts/howToCreate.js')

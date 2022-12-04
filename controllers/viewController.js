@@ -12,6 +12,12 @@ exports.explore = (req, res) => {
   });
 };
 
+exports.howToCreate = (req, res) => {
+  res.render("howToCreate", {
+    locale: req.localeData,
+  });
+};
+
 exports.formScreen = (req, res) => {
   res.render("formScreen", {
     locale: req.localeData,
@@ -32,9 +38,7 @@ exports.image = async (req, res) => {
     res.render("error");
     return;
   }
-  const src = `${process.env.AZURE_CDN_BASE_URL}/${process.env.AZURE_BUCKET_CONTAINER_NAME}/${user.image}`;
   res.render("imageScreen", {
-    src: src,
     imageLocale: user.locale,
     locale: req.localeData,
     name: `${user?.name} ${user?.surname}`,

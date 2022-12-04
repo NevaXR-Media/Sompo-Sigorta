@@ -22,5 +22,9 @@
   "mintNFT": "Mint NFT",
   "kvkk": "You can access detailed information about your personal data processed by Sompo Sigorta within the scope of the NFT creation activities from here.",
   "memoryDesc": "Sompo Insurance\n20th Anniversary Commemorative",
-  "nftInfoText": "Your NFT will be delivered to your wallet today."
+  "nftInfoText": "Your NFT will be delivered to your wallet today.",
+  "continue": "Continue",
+  "howToCreate": "How To Create",
+  "howToCreateDesc": "Moment is a generatively created NFT artwork that processes blockchain data in real time and turns it into art. You can have a piece of the work in the NFT collection created by entering your crypto wallet address in our application. If you do not have a crypto wallet before, you can easily install it by following the steps in the link to create a metamask wallet. Our NFT works will be automatically sent to our guests who share their wallet addresses via AirDrop method.",
+  "createNow": "Create Now"
 }

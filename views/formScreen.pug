@@ -20,12 +20,4 @@ block content
         //-         label#kvkk Togg tarafından NFT çalışmaları kapsamında işlenen kişisel verilerinize ilişkin detaylı bilgilere 
         //-         a#kvkk_open buradan ulaşabilirsiniz.
         button#next.btn(text=locale.creating) #{locale.next}
-        #kvkkModal.modal
-            .modal-content
-                span.close &times;
-                if (lang === 'en')
-                    include ./kvkk_en.pug
-                else
-                    include ./kvkk_tr.pug
     script(defer src='/javascripts/main.js')
-    script(defer src='/javascripts/kvkk.js')
