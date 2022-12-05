@@ -3,8 +3,8 @@ extends layout
 block content
     #imageContainer
         span.memoryDes #{locale.memoryDesc}
-        video#video(controls muted autoplay)
-            source(src="/videos/example.mp4" type="video/mp4")
+        video#video(controls muted autoplay loop)
+            source(src="/videos/SompoNFT_loop.mp4" type="video/mp4")
         button#createNFT.button #{locale.createNFT}
         input#userName(value=name style="display: none")
         input#userId(value=_id style="display: none")
