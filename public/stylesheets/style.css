@@ -16,7 +16,7 @@ html {
 
 body {
   font: 14px "Montserrat";
-  background-color: #EFEBEB;
+  background-color: #efebeb;
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -112,7 +112,8 @@ p {
   color: #ffffff;
 }
 
-#explore, #howToCreate {
+#explore,
+#howToCreate {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -122,7 +123,8 @@ p {
 }
 
 #explore > .title,
-#createNFTScreen > .title {
+#createNFTScreen > .title,
+#howToCreate > .title {
   color: #474242;
   font-size: 25px;
   font-weight: 600;
@@ -130,14 +132,15 @@ p {
 
 .description {
   color: #474242;
-  font-size: 16px;
-  font-weight: 500;
-  margin-block: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-block: 20px;
   padding-inline: 40px;
   text-align: center;
 }
 
-#explore_btn, #createNow_btn {
+#explore_btn,
+#createNow_btn {
   width: 80%;
   font-size: 16px;
   color: #ffffff;
@@ -153,6 +156,11 @@ p {
   display: flex;
   gap: 20px;
   justify-content: space-between;
+}
+
+#howToCreate > #btnContainer > a,
+#howToCreate > #btnContainer > button {
+  font-size: 12px;
 }
 
 #form {
@@ -294,7 +302,8 @@ input:focus-visible {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
-button, .btn_link {
+button,
+.btn_link {
   /* filter: brightness(1.25); */
   letter-spacing: 3px;
   box-shadow: 0px 4px 8px #aa001f;

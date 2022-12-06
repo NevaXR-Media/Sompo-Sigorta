@@ -21,10 +21,10 @@
   "enterWalletAddress": "Cüzdan adresinizi girin",
   "mintNFT": "NFT Oluştur",
   "kvkk": "Togg tarafından NFT çalışmaları kapsamında işlenen kişisel verilerinize ilişkin detaylı bilgilere buradan ulaşabilirsiniz.",
-  "memoryDesc": "Sompo Sigorta\n20. Yıl Hatırası",
+  "memoryDesc": "Sompo Sigorta\nDijital Sanat Eseri\n“Moment” Hatırası",
   "nftInfoText": "NFT’niz gün içerisinde cüzdanınıza iletilecektir.",
   "continue": "Devam",
   "howToCreate": "Nasıl oluşturulur",
-  "howToCreateDesc": "Blockchain verilerini gerçek zamanlı işleyerek sanata dönüştüren Moment, generatif olarak oluşturulan bir NFT sanat eseridir. Sizde kripto cüzdan adresinizi uygulamamıza girerek oluşturulmuş NFT koleksiyonundaki eserin bir parçasına sahip olabilirsiniz. Eğer daha önce bir kripto cüzdan sahibi değilseniz, metamask cüzdan oluşturmak için linkteki adımları takip ederek kolayca kurabilirsiniz. Cüzdan adreslerini paylaşan misafirlerimize NFT eserlerimiz AirDrop yöntemiyle otomatik olarak gönderilecektir.",
+  "howToCreateDesc": "Şirketimizin yeni bina açılışına özel olarak tasarlanan dijital sanat eserimiz “Moment”’ ın lansmanında bizlerle birlikte olduğunuz için teşekkür ederiz. Türkiye’de bir ilk olarak blockchain verilerini gerçek zamanlı işleyerek sanata dönüştüren Moment, generatif olarak oluşturulan bir NFT sanat eseridir. Bu günün anısı olarak sizler için hazırlanan NFT’nize ulaşmanız oldukça kolay. QR kodu okutup, kripto cüzdan adresinizi uygulamamıza girerek NFT koleksiyonundaki eserin bir parçasına sahip olabilirsiniz. Eğer kripto cüzdanınız yok ise uygulamadaki yönlendirmeleri takip ederek kolayca kripto cüzdanınızı oluşturabilirsiniz.",
   "createNow": "Şimdi Oluştur"
 }
